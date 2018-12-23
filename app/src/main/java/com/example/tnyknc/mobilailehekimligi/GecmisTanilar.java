@@ -11,5 +11,8 @@ public class GecmisTanilar extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gecmis_tanilar);
 
+
+
     }
+
 }

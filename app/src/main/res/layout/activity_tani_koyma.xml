@@ -57,12 +57,14 @@
                     android:layout_marginRight="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Var"/>
+                    android:text="Var"
+                    android:id="@+id/btn_var0"/>
                 <Button
                     android:layout_marginLeft="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yok"/>
+                    android:text="Yok"
+                    android:id="@+id/btn_yok0"/>
 
             </LinearLayout>
 
@@ -91,12 +93,14 @@
                     android:layout_marginRight="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Var"/>
+                    android:text="Var"
+                    android:id="@+id/btn_var1"/>
                 <Button
                     android:layout_marginLeft="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yok"/>
+                    android:text="Yok"
+                    android:id="@+id/btn_yok1"/>
 
             </LinearLayout>
 
@@ -125,12 +129,14 @@
                     android:layout_marginRight="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Var"/>
+                    android:text="Var"
+                    android:id="@+id/btn_var2"/>
                 <Button
                     android:layout_marginLeft="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yok"/>
+                    android:text="Yok"
+                    android:id="@+id/btn_yok2"/>
 
             </LinearLayout>
 
@@ -159,12 +165,14 @@
                     android:layout_marginRight="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Var"/>
+                    android:text="Var"
+                    android:id="@+id/btn_var3"/>
                 <Button
                     android:layout_marginLeft="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yok"/>
+                    android:text="Yok"
+                    android:id="@+id/btn_yok3"/>
 
             </LinearLayout>
 
@@ -193,12 +201,14 @@
                     android:layout_marginRight="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Var"/>
+                    android:text="Var"
+                    android:id="@+id/btn_var4"/>
                 <Button
                     android:layout_marginLeft="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yok"/>
+                    android:text="Yok"
+                    android:id="@+id/btn_yok4"/>
 
             </LinearLayout>
 
@@ -227,12 +237,14 @@
                     android:layout_marginRight="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Var"/>
+                    android:text="Var"
+                    android:id="@+id/btn_var5"/>
                 <Button
                     android:layout_marginLeft="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yok"/>
+                    android:text="Yok"
+                    android:id="@+id/btn_yok5"/>
 
             </LinearLayout>
 
@@ -261,12 +273,14 @@
                     android:layout_marginRight="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Var"/>
+                    android:text="Var"
+                    android:id="@+id/btn_var6"/>
                 <Button
                     android:layout_marginLeft="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yok"/>
+                    android:text="Yok"
+                    android:id="@+id/btn_yok6"/>
 
             </LinearLayout>
 
@@ -295,12 +309,14 @@
                     android:layout_marginRight="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Var"/>
+                    android:text="Var"
+                    android:id="@+id/btn_var7"/>
                 <Button
                     android:layout_marginLeft="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yok"/>
+                    android:text="Yok"
+                    android:id="@+id/btn_yok7"/>
 
             </LinearLayout>
 
@@ -329,12 +345,14 @@
                     android:layout_marginRight="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Var"/>
+                    android:text="Var"
+                    android:id="@+id/btn_var8"/>
                 <Button
                     android:layout_marginLeft="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yok"/>
+                    android:text="Yok"
+                    android:id="@+id/btn_yok8"/>
 
             </LinearLayout>
 
@@ -363,12 +381,14 @@
                     android:layout_marginRight="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Var"/>
+                    android:text="Var"
+                    android:id="@+id/btn_var9"/>
                 <Button
                     android:layout_marginLeft="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yok"/>
+                    android:text="Yok"
+                    android:id="@+id/btn_yok9"/>
 
             </LinearLayout>
 
@@ -394,6 +414,7 @@
             />
 
         <EditText
+            android:id="@+id/edt_digerSikayetler"
             android:layout_weight="5"
             android:inputType="textMultiLine"
             android:lines="8"
@@ -406,12 +427,14 @@
         />
 
         <Button
+            android:id="@+id/btn_doktoraGonder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Doktora Gönder"
             android:layout_weight="2"/>
 
         <Button
+            android:id="@+id/btn_kararDestekGonder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Karar Destek Sistemine Gönder"
